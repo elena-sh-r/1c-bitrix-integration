@@ -1,0 +1,55 @@
+@font-face {
+  font-family: "r";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/Roboto-Regular.ttf") format("truetype")
+}
+
+@font-face {
+  font-family: "r";
+  font-style: normal;
+  font-weight: 700;
+  src: url("../fonts/Roboto-Bold.ttf") format("truetype")
+}
+
+@font-face {
+  font-family: "r";
+  font-style: normal;
+  font-weight: 300;
+  src: local("r"), url("../fonts/Roboto-Light.ttf") format("truetype")
+}
+
+@font-face {
+  font-family: "r";
+  font-style: normal;
+  font-weight: 400;
+  src: local("r"), url("../fonts/Roboto-Regular.ttf") format("truetype")
+}
+
+@font-face {
+  font-family: "r";
+  font-style: normal;
+  font-weight: 500;
+  src: local("r"), url("../fonts/Roboto-Medium.ttf") format("truetype")
+}
+
+@font-face {
+  font-family: "r";
+  font-style: normal;
+  font-weight: 900;
+  src: local("r"), url("../fonts/Roboto-Black.ttf") format("truetype")
+}
+
+@font-face {
+  font-family: "m";
+  font-style: normal;
+  font-weight: 400;
+  src: local("m"), url("../fonts/Mont-Regular.ttf") format("truetype")
+}
+
+@font-face {
+  font-family: "m";
+  font-style: normal;
+  font-weight: 700;
+  src: local("m"), url("../fonts/Mont-Bold.ttf") format("truetype")
+}
