@@ -2,80 +2,48 @@ import React from 'react';
 
 import homeStyles from './home.module.css';
 
-import logo from '../images/logo.svg';
-import offer1Image from '../images/offer-1.svg';
-import partners1Image from '../images/partners-1.png';
-import partners2Image from '../images/partners-2.png';
-import partners3Image from '../images/partners-3.png';
-import forWhom1Image from '../images/for-whom-1.svg';
-import forWhom2Image from '../images/for-whom-2.svg';
-import services3Image from '../images/services-3.svg';
-import services4Image from '../images/services-4.svg';
-import services5Image from '../images/services-5.svg';
-import services6Image from '../images/services-6.svg';
-import services7Image from '../images/services-6.svg';
-import services8Image from '../images/services-6.svg';
-import services9Image from '../images/services-9.svg';
-import inlineForm1Image from '../images/inline-form-1.svg';
-import howWeWork1Image from '../images/how-we-work-1.svg';
-import howWeWork2Image from '../images/how-we-work-2.svg';
-import howWeWork3Image from '../images/how-we-work-3.svg';
-import howWeWork4Image from '../images/how-we-work-4.svg';
-import howWeWork5Image from '../images/how-we-work-5.svg';
-import howWeWork6Image from '../images/how-we-work-6.svg';
-import howWeWork7Image from '../images/how-we-work-7.svg';
-import howWeWork8Image from '../images/how-we-work-8.svg';
-import price3Image from '../images/price-3.svg';
-import ourTeam1Image from '../images/our-team-1.svg';
-import ourTeam2Image from '../images/our-team-2.svg';
-import ourTeam3Image from '../images/our-team-3.svg';
-import ourTeam4Image from '../images/our-team-4.svg';
-import ourTeam5Image from '../images/our-team-5.svg';
-import ourTeam6Image from '../images/our-team-6.svg';
-import ourCustomers1Image from '../images/our-customers-1.png';
-import ourCustomers2Image from '../images/our-customers-2.png';
-import ourCustomers3Image from '../images/our-customers-3.png';
-import ourCustomers4Image from '../images/our-customers-4.png';
-import ourCustomers5Image from '../images/our-customers-5.png';
-import reviews1Image from '../images/reviews-1.png';
-import reviews2Image from '../images/reviews-2.png';
-import questions3Image from '../images/questions-3.svg';
-import logo2Image from '../images/logo-2.svg';
+import offer1Image from '../../images/offer-1.svg';
+import partners1Image from '../../images/partners-1.png';
+import partners2Image from '../../images/partners-2.png';
+import partners3Image from '../../images/partners-3.png';
+import forWhom1Image from '../../images/for-whom-1.svg';
+import forWhom2Image from '../../images/for-whom-2.svg';
+import services3Image from '../../images/services-3.svg';
+import services4Image from '../../images/services-4.svg';
+import services5Image from '../../images/services-5.svg';
+import services6Image from '../../images/services-6.svg';
+import services7Image from '../../images/services-6.svg';
+import services8Image from '../../images/services-6.svg';
+import services9Image from '../../images/services-9.svg';
+import inlineForm1Image from '../../images/inline-form-1.svg';
+import howWeWork1Image from '../../images/how-we-work-1.svg';
+import howWeWork2Image from '../../images/how-we-work-2.svg';
+import howWeWork3Image from '../../images/how-we-work-3.svg';
+import howWeWork4Image from '../../images/how-we-work-4.svg';
+import howWeWork5Image from '../../images/how-we-work-5.svg';
+import howWeWork6Image from '../../images/how-we-work-6.svg';
+import howWeWork7Image from '../../images/how-we-work-7.svg';
+import howWeWork8Image from '../../images/how-we-work-8.svg';
+import price3Image from '../../images/price-3.svg';
+import ourTeam1Image from '../../images/our-team-1.svg';
+import ourTeam2Image from '../../images/our-team-2.svg';
+import ourTeam3Image from '../../images/our-team-3.svg';
+import ourTeam4Image from '../../images/our-team-4.svg';
+import ourTeam5Image from '../../images/our-team-5.svg';
+import ourTeam6Image from '../../images/our-team-6.svg';
+import ourCustomers1Image from '../../images/our-customers-1.png';
+import ourCustomers2Image from '../../images/our-customers-2.png';
+import ourCustomers3Image from '../../images/our-customers-3.png';
+import ourCustomers4Image from '../../images/our-customers-4.png';
+import ourCustomers5Image from '../../images/our-customers-5.png';
+import reviews1Image from '../../images/reviews-1.png';
+import reviews2Image from '../../images/reviews-2.png';
+import questions3Image from '../../images/questions-3.svg';
 
 const Home = () => {
+
   return (
     <main className={`${homeStyles['overflow-page']}`}>
-			<header className={`${homeStyles['header']}`}>
-				<div className={`${homeStyles['container']}`}>
-					<div className={`${homeStyles['header__row']}`}>
-						<div className={`${homeStyles['header__group']}`}>
-							<a href="/" className={`${homeStyles['header__logo']}`}>
-								<img src={logo} alt="" width="79px" />
-							</a>
-							<div className={`${homeStyles['hamburger']} ${homeStyles['hamburger--squeeze']} ${homeStyles['header__hamburger']}`}>
-								<div className={`${homeStyles['hamburger-box']}`}>
-									<div className={`${homeStyles['hamburger-inner']}`}></div>
-								</div>
-							</div>
-						</div>
-						<div className={`${homeStyles['header-menu']}`}>
-							<div className={`${homeStyles['header-menu__container']}`}>
-								<ul className={`${homeStyles['header-menu__list']}`}>
-									<li><a href="#anchor-1">С кем работаем</a></li>
-									<li><a href="#anchor-2">Для кого</a></li>
-									<li><a href="#anchor-3">Услуги</a></li>
-									<li><a href="#anchor-4">Схема работы</a></li>
-									<li><a href="#anchor-5">Цены</a></li>
-									<li><a href="#anchor-6">Команда</a></li>
-									<li><a href="#anchor-7">Отзывы</a></li>
-									<li><a href="#anchor-8">FAQ</a></li>
-								</ul>
-							</div>
-						</div>
-						<a href="tel:8800787447" className={`${homeStyles['header__phone']}`}>8 800 787 447</a>
-					</div>
-				</div>
-			</header>
 			<section className={`${homeStyles['offer']}`}>
 				<div className={`${homeStyles['container']} ${homeStyles['offer__container']}`}>
 					<div className={`${homeStyles['offer__content']}`}>
@@ -101,7 +69,7 @@ const Home = () => {
 					<img src={offer1Image} alt="" width="736" className={`${homeStyles['offer__image']}`} />
 				</div>
 			</section>
-			<section className={`${homeStyles['partners']}`} id="anchor-1">
+			<section className={`${homeStyles['partners']}`}>
 				<div className={`${homeStyles['container']}`}>
 					<div className={`${homeStyles['partners__row']} ${homeStyles['partners__row_mb']}`}>
 						<div className={`${homeStyles['partners__left']}`}>
@@ -650,37 +618,6 @@ const Home = () => {
 					</div>
 				</section>
 			</div>
-			<footer className={`${homeStyles['footer']}`}>
-				<div className={`${homeStyles['container']}`}>
-					<div className={`${homeStyles['footer__row']}`}>
-						<a href="/" className={`${homeStyles['footer__logo']}`}>
-							<img src={logo2Image} alt="" width="79" />
-						</a>
-						<ul className={`${homeStyles['footer__menu']}`}>
-							<li><a href="#anchor-1">С кем работаем</a></li>
-							<li><a href="#anchor-2">Для кого</a></li>
-							<li><a href="#anchor-3">Услуги</a></li>
-							<li><a href="#anchor-4">Схема работы</a></li>
-							<li><a href="#anchor-5">Цены</a></li>
-							<li><a href="#anchor-6">Команда</a></li>
-							<li><a href="#anchor-7">Отзывы</a></li>
-							<li><a href="#anchor-8">FAQ</a></li>
-						</ul>
-						<div className={`${homeStyles['footer__group']}`}>
-							<a href="tel:8800787447" className={`${homeStyles['footer__phone']}`}>8 800 787 447</a>
-							<a href="mailto:entersales@order.ru" className={`${homeStyles['footer__email']}`}>entersales@order.ru</a>
-						</div>
-					</div>
-				</div>
-				<div className={`${homeStyles['footer__bottom']}`}>
-					<div className={`${homeStyles['container']}`}>
-						<div className={`${homeStyles['footer__row']} ${homeStyles['footer__row_ai']}`}>
-							<div className={`${homeStyles['footer__copyright']}`}>2022© EnterSales.ru - Продажа на маркетплейсах под ключ</div>
-							<a href="#" className={`${homeStyles['footer__policy']}`}>Политика конфиденциальности</a>
-						</div>
-					</div>
-				</div>
-			</footer>
 		</main>
   );
 }
