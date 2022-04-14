@@ -1,0 +1,293 @@
+.error-404 {
+  padding-bottom: 100px;
+  overflow: hidden
+}
+
+@media only screen and (max-width: 768px) {
+  .error-404 {
+    padding-bottom: 0px
+  }
+}
+
+.container,
+.container-fluid,
+.container-sm,
+.container-md,
+.container-lg,
+.container-xl {
+  width: 100%;
+  padding-right: 10px;
+  padding-left: 10px;
+  margin-right: auto;
+  margin-left: auto
+}
+
+@media (min-width: 576px) {
+  .container,
+  .container-sm {
+    max-width: 100%
+  }
+}
+
+@media (min-width: 768px) {
+  .container,
+  .container-sm,
+  .container-md {
+    max-width: 720px
+  }
+}
+
+@media (min-width: 992px) {
+  .container,
+  .container-sm,
+  .container-md,
+  .container-lg {
+    max-width: 960px
+  }
+}
+
+@media (min-width: 1340px) {
+  .container,
+  .container-sm,
+  .container-md,
+  .container-lg,
+  .container-xl {
+    max-width: 1320px
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .container {
+    padding: 0px 15px
+  }
+}
+
+.error-404__row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  min-height: 68vh;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center
+}
+
+.error-404__left {
+  -webkit-box-flex: 0;
+  -ms-flex: 0 0 606px;
+  flex: 0 0 606px;
+  max-width: 606px;
+  padding-top: 123px;
+  position: relative
+}
+
+@media only screen and (max-width: 991px) {
+  .error-404__left {
+    padding-top: 100px
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .error-404__left {
+    padding-top: 20px;
+    padding-bottom: 40px;
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 100%;
+    flex: 0 0 100%;
+    max-width: 100%
+  }
+}
+
+.error-404__bg {
+  content: "";
+  width: 672px;
+  position: absolute;
+  top: 133px;
+  left: -73px
+}
+
+.error-404__bg img {
+  max-width: 100%
+}
+
+@media only screen and (max-width: 1428px) {
+  .error-404__bg {
+    left: -10px;
+    width: 600px
+  }
+}
+
+@media only screen and (max-width: 991px) {
+  .error-404__bg {
+    top: 70px
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .error-404__bg {
+    position: static;
+    width: 100%
+  }
+  .error-404__bg img {
+    width: 400px
+  }
+}
+
+.error-404__title {
+  font-family: m;
+  font-weight: 700;
+  color: #1B1A37;
+  font-size: 46px;
+  line-height: 59px
+}
+
+@media only screen and (max-width: 768px) {
+  .error-404__title {
+    font-size: 28px;
+    line-height: 33px;
+    margin-top: 20px
+  }
+  .error-404__title br {
+    display: none
+  }
+}
+
+.error-404__descr {
+  font-size: 15px;
+  line-height: 25px;
+  color: #40454A;
+  padding-left: 44px;
+  position: relative;
+  margin-bottom: 32px;
+  margin-top: 16px;
+  max-width: 500px
+}
+
+@media only screen and (max-width: 1428px) {
+  .error-404__descr {
+    padding-left: 70px
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .error-404__descr {
+    padding-left: 0px
+  }
+}
+
+.line {
+  width: 71px;
+  height: 14px;
+  background-size: 71px;
+  background-image: url(../../images/line.svg)
+}
+
+.error-404__line {
+  position: absolute;
+  left: -49px;
+  top: 4px
+}
+
+@media only screen and (max-width: 1428px) {
+  .error-404__line {
+    left: -10px
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .error-404__line {
+    position: static;
+    margin-bottom: 10px
+  }
+}
+
+.btn {
+  display: inline-block;
+  text-decoration: none !important;
+  outline: none !important;
+  font-size: 12px;
+  line-height: 1;
+  font-weight: 900;
+  text-transform: uppercase;
+  text-decoration: none !important;
+  border-width: 0px
+}
+
+.btn_gr {
+  -webkit-box-shadow: 0px 11px 19px rgba(147, 51, 153, 0.24);
+  box-shadow: 0px 11px 19px rgba(147, 51, 153, 0.24);
+  border-radius: 52px;
+  overflow: hidden;
+  position: relative;
+  line-height: 1;
+  padding: 20px 65px 20px 36px;
+  color: #fff !important;
+  background: -o-linear-gradient(358.77deg, #624D9F 6.39%, #ED028C 94.1%);
+  background: linear-gradient(91.23deg, #624D9F 6.39%, #ED028C 94.1%)
+}
+
+@media only screen and (max-width: 768px) {
+  .btn_gr {
+    padding: 17px 65px 17px 25px
+  }
+}
+
+.btn_gr::after {
+  content: "";
+  width: 25px;
+  height: 8px;
+  background-image: url(../../images/btn-1.svg);
+  background-size: 38px;
+  background-position: right center;
+  position: absolute;
+  right: 25px;
+  top: 50%;
+  -webkit-transform: translate(0px, -50%);
+  -ms-transform: translate(0px, -50%);
+  transform: translate(0px, -50%);
+  margin-top: -1px;
+  -webkit-transition: all .3s ease;
+  -o-transition: all .3s ease;
+  transition: all .3s ease
+}
+
+.btn_gr span {
+  position: relative
+}
+
+.btn_gr::before {
+  content: "";
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  bottom: 0px;
+  background: -o-linear-gradient(358.77deg, #4154F5 6.39%, #FF76C6 94.1%);
+  background: linear-gradient(91.23deg, #4154F5 6.39%, #FF76C6 94.1%);
+  opacity: 0;
+  -webkit-transition: all .3s ease;
+  -o-transition: all .3s ease;
+  transition: all .3s ease
+}
+
+.btn_gr:hover::before {
+  opacity: 1
+}
+
+.btn_gr:hover::after {
+  right: 17px;
+  width: 38px
+}
+
+.error-404__right {
+  -webkit-box-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  padding-top: 37px
+}
+
+@media only screen and (max-width: 991px) {
+  .error-404__right {
+    display: none
+  }
+}
