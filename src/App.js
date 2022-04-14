@@ -14,15 +14,15 @@ function App() {
         <Header />
 
         <Switch>
+          <Route path='/1c-bitrix-integration' exact={true}>
+            <Home />
+          </Route>
+          
           <Route path='/' exact={true}>
             <Home />
           </Route>
           <Route path='*'>
             <NotFound404 />
-          </Route>
-
-          <Route path='/1c-bitrix-integration' exact={true}>
-            <Home />
           </Route>
         </Switch>
 
