@@ -21,4 +21,4 @@
 * реализовать функционал слайдера;
 
 ## Ссылка на проект
--
+Github Pages: https://elena-sh-r.github.io/1c-bitrix-integration
