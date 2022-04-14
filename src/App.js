@@ -20,6 +20,10 @@ function App() {
           <Route path='*'>
             <NotFound404 />
           </Route>
+
+          <Route path='/1c-bitrix-integration' exact={true}>
+            <Home />
+          </Route>
         </Switch>
 
         <Footer />
