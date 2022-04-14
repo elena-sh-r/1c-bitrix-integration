@@ -2,8 +2,6 @@ import React from 'react';
 
 import homeStyles from './home.module.css';
 
-import Header from '../../components/header/header';
-
 import offer1Image from '../../images/offer-1.svg';
 import partners1Image from '../../images/partners-1.png';
 import partners2Image from '../../images/partners-2.png';
@@ -41,12 +39,11 @@ import ourCustomers5Image from '../../images/our-customers-5.png';
 import reviews1Image from '../../images/reviews-1.png';
 import reviews2Image from '../../images/reviews-2.png';
 import questions3Image from '../../images/questions-3.svg';
-import logo2Image from '../../images/logo-2.svg';
 
 const Home = () => {
+
   return (
     <main className={`${homeStyles['overflow-page']}`}>
-			<Header />
 			<section className={`${homeStyles['offer']}`}>
 				<div className={`${homeStyles['container']} ${homeStyles['offer__container']}`}>
 					<div className={`${homeStyles['offer__content']}`}>
@@ -72,7 +69,7 @@ const Home = () => {
 					<img src={offer1Image} alt="" width="736" className={`${homeStyles['offer__image']}`} />
 				</div>
 			</section>
-			<section className={`${homeStyles['partners']}`} id="anchor-1">
+			<section className={`${homeStyles['partners']}`}>
 				<div className={`${homeStyles['container']}`}>
 					<div className={`${homeStyles['partners__row']} ${homeStyles['partners__row_mb']}`}>
 						<div className={`${homeStyles['partners__left']}`}>
@@ -621,37 +618,6 @@ const Home = () => {
 					</div>
 				</section>
 			</div>
-			<footer className={`${homeStyles['footer']}`}>
-				<div className={`${homeStyles['container']}`}>
-					<div className={`${homeStyles['footer__row']}`}>
-						<a href="/" className={`${homeStyles['footer__logo']}`}>
-							<img src={logo2Image} alt="" width="79" />
-						</a>
-						<ul className={`${homeStyles['footer__menu']}`}>
-							<li><a href="#anchor-1">С кем работаем</a></li>
-							<li><a href="#anchor-2">Для кого</a></li>
-							<li><a href="#anchor-3">Услуги</a></li>
-							<li><a href="#anchor-4">Схема работы</a></li>
-							<li><a href="#anchor-5">Цены</a></li>
-							<li><a href="#anchor-6">Команда</a></li>
-							<li><a href="#anchor-7">Отзывы</a></li>
-							<li><a href="#anchor-8">FAQ</a></li>
-						</ul>
-						<div className={`${homeStyles['footer__group']}`}>
-							<a href="tel:8800787447" className={`${homeStyles['footer__phone']}`}>8 800 787 447</a>
-							<a href="mailto:entersales@order.ru" className={`${homeStyles['footer__email']}`}>entersales@order.ru</a>
-						</div>
-					</div>
-				</div>
-				<div className={`${homeStyles['footer__bottom']}`}>
-					<div className={`${homeStyles['container']}`}>
-						<div className={`${homeStyles['footer__row']} ${homeStyles['footer__row_ai']}`}>
-							<div className={`${homeStyles['footer__copyright']}`}>2022© EnterSales.ru - Продажа на маркетплейсах под ключ</div>
-							<a href="#" className={`${homeStyles['footer__policy']}`}>Политика конфиденциальности</a>
-						</div>
-					</div>
-				</div>
-			</footer>
 		</main>
   );
 }

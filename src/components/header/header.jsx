@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 import headerStyles from './header.module.css';
 
@@ -10,9 +11,9 @@ const Header = () => {
       <div className={`${headerStyles['container']}`}>
         <div className={`${headerStyles['header__row']}`}>
           <div className={`${headerStyles['header__group']}`}>
-            <a href="/" className={`${headerStyles['header__logo']}`}>
+            <Link to='/'  className={`${headerStyles['header__logo']}`}>
               <img src={logo} alt="" width="79px" />
-            </a>
+            </Link>
             <div className={`${headerStyles['hamburger']} ${headerStyles['hamburger--squeeze']} ${headerStyles['header__hamburger']}`}>
               <div className={`${headerStyles['hamburger-box']}`}>
                 <div className={`${headerStyles['hamburger-inner']}`}></div>
