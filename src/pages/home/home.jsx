@@ -69,7 +69,7 @@ const Home = () => {
 					<img src={offer1Image} alt="" width="736" className={`${homeStyles['offer__image']}`} />
 				</div>
 			</section>
-			<section className={`${homeStyles['partners']}`}>
+			<section className={`${homeStyles['partners']}`} id="partners">
 				<div className={`${homeStyles['container']}`}>
 					<div className={`${homeStyles['partners__row']} ${homeStyles['partners__row_mb']}`}>
 						<div className={`${homeStyles['partners__left']}`}>
@@ -106,7 +106,7 @@ const Home = () => {
 					</div>
 				</div>
 			</section>
-			<section className={`${homeStyles['for-whom']}`} id="anchor-2">
+			<section className={`${homeStyles['for-whom']}`} id="for-whom">
 				<div className={`${homeStyles['container']}`}>
 					<div className={`${homeStyles['line']} ${homeStyles['line_m10']}`}></div>
 					<div className={`${homeStyles['h2']} ${homeStyles['h2_bl']}`}>Для кого подходит?</div>
@@ -130,7 +130,7 @@ const Home = () => {
 					</div>
 				</div>
 			</section>
-			<section className={`${homeStyles['services']}`} id="anchor-3">
+			<section className={`${homeStyles['services']}`} id="services">
 				<div className={`${homeStyles['container']} ${homeStyles['services__container']}`}>
 					<div className={`${homeStyles['line']} ${homeStyles['line_m10']}`}></div>
 					<div className={`${homeStyles['h2']} ${homeStyles['h2_wh']}`}>Наши услуги:</div>
@@ -205,7 +205,7 @@ const Home = () => {
 					<img src={inlineForm1Image} alt="" width="506" className={`${homeStyles['inline-form__img']}`} />
 				</div>
 			</section>
-			<section className={`${homeStyles['how-we-work']}`} id="anchor-4">
+			<section className={`${homeStyles['how-we-work']}`} id="how-we-work">
 				<div className={`${homeStyles['container']}`}>
 					<div className={`${homeStyles['line']} ${homeStyles['line_m10']}`}></div>
 					<div className={`${homeStyles['h2']} ${homeStyles['h2_bl']}`}>Как мы работаем?</div>
@@ -293,7 +293,7 @@ const Home = () => {
 					</div>
 				</div>
 			</section>
-			<section className={`${homeStyles['price']}`} id="anchor-5">
+			<section className={`${homeStyles['price']}`} id="price">
 				<div className={`${homeStyles['container']}`}>
 					<div className={`${homeStyles['line']} ${homeStyles['line_m10']}`}></div>
 					<div className={`${homeStyles['h2']} ${homeStyles['h2_bl']}`}>Стоимость услуг</div>
@@ -394,7 +394,7 @@ const Home = () => {
 				</div>
 			</section>
 			<div className={`${homeStyles['section-overflow']}`}>
-				<section className={`${homeStyles['our-team']}`} id="anchor-6">
+				<section className={`${homeStyles['our-team']}`} id="our-team">
 					<div className={`${homeStyles['container']}`}>
 						<div className={`${homeStyles['our-team__row']} ${homeStyles['our-team__row_main']}`}>
 							<div className={`${homeStyles['our-team__left']}`}>
@@ -525,7 +525,7 @@ const Home = () => {
 						</div>
 					</div>
 				</section>
-				<section className={`${homeStyles['reviews']}`} id="anchor-7">
+				<section className={`${homeStyles['reviews']}`} id="reviews">
 					<div className={`${homeStyles['container']} ${homeStyles['reviews__index']}`}>
 						<div className={`${homeStyles['line']} ${homeStyles['line_m19']}`}></div>
 						<div className={`${homeStyles['h2']} ${homeStyles['h2_bl']}`}>Отзывы <br /> клиентов:</div>
@@ -575,7 +575,7 @@ const Home = () => {
 						</div>
 					</div>
 				</section>
-				<section className={`${homeStyles['questions']}`} id="anchor-8">
+				<section className={`${homeStyles['questions']}`} id="questions">
 					<div className={`${homeStyles['container']}`}>
 						<div className={`${homeStyles['questions__row']}`}>
 							<div className={`${homeStyles['questions__left']}`}>
