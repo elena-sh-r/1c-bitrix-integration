@@ -1,11 +1,12 @@
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
+import Home from '../../pages/home/home';
+import NotFound404 from '../../pages/not-found-404/not-found-404';
+import Header from '../header/header';
+import Footer from '../footer/footer';
 
-import './App.css';
+import './app.module.css';
 
-import Header from './components/header/header';
-import Home from './pages/home/home';
-import NotFound404 from './pages/not-found-404/not-found-404';
-import Footer from './components/footer/footer';
+
 
 function App() {
   return (
