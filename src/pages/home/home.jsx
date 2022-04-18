@@ -2,7 +2,6 @@ import React from 'react';
 
 import homeStyles from './home.module.css';
 
-import offer1Image from '../../images/offer-1.svg';
 import partners1Image from '../../images/partners-1.png';
 import partners2Image from '../../images/partners-2.png';
 import partners3Image from '../../images/partners-3.png';
@@ -40,35 +39,13 @@ import reviews1Image from '../../images/reviews-1.png';
 import reviews2Image from '../../images/reviews-2.png';
 import questions3Image from '../../images/questions-3.svg';
 
+import Offer from '../../components/offer/offer';
+
 const Home = () => {
 
   return (
     <main className={`${homeStyles['overflow-page']}`}>
-			<section className={`${homeStyles['offer']}`}>
-				<div className={`${homeStyles['container']} ${homeStyles['offer__container']}`}>
-					<div className={`${homeStyles['offer__content']}`}>
-						<div className={`${homeStyles['offer__title']}`}>
-							Продажи на маркетплейсах под ключ
-						</div>
-						<div className={`${homeStyles['offer__descr']}`}>
-							<div className={`${homeStyles['line']} ${homeStyles['offer__descr-line']}`}></div>
-							Подключим вас к крупнейшим маркетплейсам России и СНГ с многомиллионной аудиторией, организуем размещение товаров на маркетплейсах, их продвижение и продажи.
-						</div>
-						<div className={`${homeStyles['offer__info']}`}>
-							<div className={`${homeStyles['offer__info-left']}`}>
-								<div className={`${homeStyles['offer__info-title']} ${homeStyles['offer__info-title_purple']}`}>МЫ</div>
-								Берём на себя выход на маркетплейсы и всю рутину
-							</div>
-							<div className={`${homeStyles['offer__info-right']}`}>
-								<div className={`${homeStyles['offer__info-title']} ${homeStyles['offer__info-title_pink']}`}>ВЫ</div>
-								Регулярно получаете и увеличиваете прибыль от продаж
-							</div>
-						</div>
-						<a href="#callback-form" className={`${homeStyles['btn']} ${homeStyles['btn_gr']} ${homeStyles['offer__btn']} ${homeStyles['magnific-popup']}`}><span>Оставить заявку</span></a>
-					</div>
-					<img src={offer1Image} alt="" width="736" className={`${homeStyles['offer__image']}`} />
-				</div>
-			</section>
+			<Offer />
 			<section className={`${homeStyles['partners']}`} id="partners">
 				<div className={`${homeStyles['container']}`}>
 					<div className={`${homeStyles['partners__row']} ${homeStyles['partners__row_mb']}`}>
