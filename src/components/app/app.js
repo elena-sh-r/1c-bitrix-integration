@@ -10,15 +10,11 @@ import './app.module.css';
 
 function App() {
   return (
-    <Router>
+    <Router basename='1c-bitrix-integration'>
       <>
         <Header />
 
         <Switch>
-          <Route path='/1c-bitrix-integration' exact={true}>
-            <Home />
-          </Route>
-          
           <Route path='/' exact={true}>
             <Home />
           </Route>
