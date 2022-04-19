@@ -9,15 +9,15 @@ import { HashLink } from 'react-router-hash-link';
 const Header = () => {
   return (
     <header className={`${headerStyles['header']}`}>
-      <div className={`${headerStyles['container']}`}>
+      <div className={`container`}>
         <div className={`${headerStyles['header__row']}`}>
           <div className={`${headerStyles['header__group']}`}>
             <Link to='/'  className={`${headerStyles['header__logo']}`}>
               <img src={logo} alt='' width='79px' />
             </Link>
-            <div className={`${headerStyles['hamburger']} ${headerStyles['hamburger--squeeze']} ${headerStyles['header__hamburger']}`}>
-              <div className={`${headerStyles['hamburger-box']}`}>
-                <div className={`${headerStyles['hamburger-inner']}`}></div>
+            <div className={`hamburger hamburger--squeeze ${headerStyles['header__hamburger']}`}>
+              <div className={`hamburger-box`}>
+                <div className={`hamburger-inner`}></div>
               </div>
             </div>
           </div>

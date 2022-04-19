@@ -3,13 +3,12 @@ import React from 'react';
 import footerStyles from './footer.module.css';
 
 import logo2Image from '../../images/logo-2.svg';
-import { Link } from 'react-router-dom';
 import { HashLink } from 'react-router-hash-link';
 
 const Footer = () => {
   return (
     <footer className={`${footerStyles['footer']}`}>
-      <div className={`${footerStyles['container']}`}>
+      <div className={`container`}>
         <div className={`${footerStyles['footer__row']}`}>
           <a href='/' className={`${footerStyles['footer__logo']}`}>
             <img src={logo2Image} alt='' width='79' />
@@ -31,10 +30,10 @@ const Footer = () => {
         </div>
       </div>
       <div className={`${footerStyles['footer__bottom']}`}>
-        <div className={`${footerStyles['container']}`}>
+        <div className={`container`}>
           <div className={`${footerStyles['footer__row']} ${footerStyles['footer__row_ai']}`}>
             <div className={`${footerStyles['footer__copyright']}`}>2022© EnterSales.ru - Продажа на маркетплейсах под ключ</div>
-            <Link href='#' className={`${footerStyles['footer__policy']}`}>Политика конфиденциальности</Link>
+            <a href='#' className={`${footerStyles['footer__policy']}`}>Политика конфиденциальности</a>
           </div>
         </div>
       </div>

@@ -1,0 +1,188 @@
+.for-whom {
+  position: relative;
+  z-index: 1;
+  padding-top: 90px
+}
+
+@media only screen and (max-width: 768px) {
+  .for-whom {
+    padding-top: 40px
+  }
+}
+
+.for-whom__left {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 12px
+}
+
+@media only screen and (max-width: 991px) {
+  .for-whom__left {
+    margin-top: 50px
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .for-whom__left {
+    margin-top: 30px
+  }
+}
+
+.for-whom__left-image {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-flex: 0;
+  -ms-flex: 0 0 446px;
+  flex: 0 0 446px;
+  max-width: 446px;
+  position: relative;
+  z-index: 1
+}
+
+@media only screen and (max-width: 991px) {
+  .for-whom__left-image {
+    display: none
+  }
+}
+
+.for-whom__left-content {
+  -webkit-box-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  max-width: 369px;
+  padding-top: 93px;
+  position: relative
+}
+
+@media only screen and (max-width: 991px) {
+  .for-whom__left-content {
+    padding-top: 0px;
+    max-width: 100%
+  }
+}
+
+.for-whom__left-content::before {
+  content: "";
+  width: 71px;
+  height: 14px;
+  background-image: url(../../images/for-whom-3.svg);
+  background-size: 71px;
+  display: block;
+  margin-left: -42px;
+  margin-bottom: 8px
+}
+
+@media only screen and (max-width: 991px) {
+  .for-whom__left-content::before {
+    margin-left: -10px;
+    width: 45px;
+    height: 11px;
+    background-repeat: no-repeat;
+    background-size: 45px
+  }
+}
+
+.for-whom__subtitle {
+  color: #1B1A37;
+  font-family: m;
+  font-size: 21px;
+  line-height: 40px;
+  margin-bottom: 3px
+}
+
+@media only screen and (max-width: 768px) {
+  .for-whom__subtitle {
+    font-size: 18px;
+    line-height: 30px
+  }
+}
+
+.for-whom__descr {
+  font-family: m;
+  font-size: 15px;
+  line-height: 28px;
+  color: #53525C
+}
+
+.for-whom__right {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
+  text-align: right;
+  margin-top: -171px;
+  padding-right: 49px
+}
+
+@media only screen and (max-width: 1340px) {
+  .for-whom__right {
+    margin-top: -70px;
+    padding-right: 0px
+  }
+}
+
+@media only screen and (max-width: 991px) {
+  .for-whom__right {
+    text-align: left;
+    margin-top: 0px;
+    display: block;
+    padding-top: 30px
+  }
+}
+
+.for-whom__right-content {
+  -webkit-box-flex: 0;
+  -ms-flex: 0 0 405px;
+  flex: 0 0 405px;
+  max-width: 405px;
+  padding-right: 29px;
+  padding-top: 222px
+}
+
+@media only screen and (max-width: 991px) {
+  .for-whom__right-content {
+    max-width: 100%;
+    padding-right: 0px;
+    padding-top: 0px
+  }
+}
+
+.for-whom__right-content::before {
+  content: "";
+  width: 71px;
+  height: 14px;
+  background-image: url(../../images/for-whom-3.svg);
+  background-size: 71px;
+  display: block;
+  margin-left: auto;
+  margin-bottom: 8px;
+  margin-right: -42px
+}
+
+@media only screen and (max-width: 991px) {
+  .for-whom__right-content::before {
+    margin-left: -10px;
+    margin-right: 0px;
+    width: 45px;
+    height: 11px;
+    background-repeat: no-repeat;
+    background-size: 45px
+  }
+}
+
+.for-whom__right-image {
+  -webkit-box-flex: 0;
+  -ms-flex: 0 0 467px;
+  flex: 0 0 467px;
+  max-width: 467px
+}
+
+@media only screen and (max-width: 991px) {
+  .for-whom__right-image {
+    display: none
+  }
+}
