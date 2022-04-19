@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "./static/css/main.dc5daec1.css",
-    "main.js": "./static/js/main.3893394f.js",
+    "main.css": "./static/css/main.c9b1e744.css",
+    "main.js": "./static/js/main.56291dae.js",
     "static/js/787.94391ff4.chunk.js": "./static/js/787.94391ff4.chunk.js",
     "static/media/inline-form-1.svg": "./static/media/inline-form-1.3d6425c044407303b7b2b520c4d8cad8.svg",
     "static/media/Roboto-Medium.ttf": "./static/media/Roboto-Medium.13a29228654d5c5ec9c4.ttf",
@@ -29,17 +29,10 @@
     "static/media/services-9.svg": "./static/media/services-9.e43703ee19ac2e351b3624797b6269b5.svg",
     "static/media/our-team-3.svg": "./static/media/our-team-3.bdd7514172598c54ca38c5969b37e6a8.svg",
     "static/media/our-team-6.svg": "./static/media/our-team-6.3179b12ccb53007ca1cb40160cce66e2.svg",
-    "static/media/how-we-work-4.svg": "./static/media/how-we-work-4.cc5a04b309713ade69349c8c0ec05657.svg",
-    "static/media/how-we-work-3.svg": "./static/media/how-we-work-3.7184ba4487546603f818a542fde2673a.svg",
-    "static/media/how-we-work-6.svg": "./static/media/how-we-work-6.487d75118886cf40be8a370d5aea5035.svg",
-    "static/media/how-we-work-1.svg": "./static/media/how-we-work-1.f0b1cb96f6b50279c8eca2b5d28a5dc6.svg",
-    "static/media/how-we-work-7.svg": "./static/media/how-we-work-7.86604c4ab273d42a8b5bad74bd1ca839.svg",
     "static/media/partners-4.svg": "./static/media/partners-4.67ca705071766cb10bfe.svg",
-    "static/media/how-we-work-5.svg": "./static/media/how-we-work-5.3168a7b6f9ef09805c29a9fcc228236f.svg",
     "static/media/partners-5.svg": "./static/media/partners-5.43bcfe2462cde24afdd5.svg",
     "static/media/error-404-2.svg": "./static/media/error-404-2.e5ae49384204c0270e04dedf3efff0bf.svg",
     "static/media/policy-1.svg": "./static/media/policy-1.1bc3a6838c49a76d44b9.svg",
-    "static/media/how-we-work-2.svg": "./static/media/how-we-work-2.e2ad653bc9c1306d512236efc4a7ebbd.svg",
     "static/media/inline-form-2.svg": "./static/media/inline-form-2.4bbca57bc4e2a1bcecf4.svg",
     "static/media/how-we-work-8.svg": "./static/media/how-we-work-8.a65572c36a21c4b37ddf7fb69721af9e.svg",
     "static/media/services-2.svg": "./static/media/services-2.3de637a8e111f7ae3461.svg",
@@ -60,12 +53,12 @@
     "static/media/btn-3.svg": "./static/media/btn-3.0ba7286ac9933372897d.svg",
     "static/media/questions-2.svg": "./static/media/questions-2.adfda199941ab3601647.svg",
     "static/media/popup-1.svg": "./static/media/popup-1.44170283b1422f4ad11b.svg",
-    "main.dc5daec1.css.map": "./static/css/main.dc5daec1.css.map",
-    "main.3893394f.js.map": "./static/js/main.3893394f.js.map",
+    "main.c9b1e744.css.map": "./static/css/main.c9b1e744.css.map",
+    "main.56291dae.js.map": "./static/js/main.56291dae.js.map",
     "787.94391ff4.chunk.js.map": "./static/js/787.94391ff4.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.dc5daec1.css",
-    "static/js/main.3893394f.js"
+    "static/css/main.c9b1e744.css",
+    "static/js/main.56291dae.js"
   ]
 }
