@@ -2,11 +2,7 @@ import React from 'react';
 
 import ourCustomersStyles from './our-customers.module.css';
 
-import ourCustomers1Image from '../../images/our-customers-1.png';
-import ourCustomers2Image from '../../images/our-customers-2.png';
-import ourCustomers3Image from '../../images/our-customers-3.png';
-import ourCustomers4Image from '../../images/our-customers-4.png';
-import ourCustomers5Image from '../../images/our-customers-5.png';
+import data from '../../data/customers.json';
 
 const OurCustomers = () => {
 
@@ -23,36 +19,12 @@ const OurCustomers = () => {
           <div className={`${ourCustomersStyles['our-customers__bg-overflow']}`}>
             <div className={`swiper-container ${ourCustomersStyles['our-customers__slider']}`}>
               <div className={`swiper-wrapper`}>
-                <div className={`swiper-slide`}>
-                  <div className={`${ourCustomersStyles['our-customers__item']}`}>
-                    <img src={ourCustomers1Image} alt='' />
+                {data?.customers?.map((customer, idx) => <div key={idx} className={`swiper-slide`}>
+                    <div className={`${ourCustomersStyles['our-customers__item']}`}>
+                      <img src={(!customer.image?.startsWith('http') ? process.env.PUBLIC_URL : '') + customer.image} alt={customer.title} />
+                    </div>
                   </div>
-                </div>
-                <div className={`swiper-slide`}>
-                  <div className={`${ourCustomersStyles['our-customers__item']}`}>
-                    <img src={ourCustomers2Image} alt='' />
-                  </div>
-                </div>
-                <div className={`swiper-slide`}>
-                  <div className={`${ourCustomersStyles['our-customers__item']}`}>
-                    <img src={ourCustomers3Image} alt='' />
-                  </div>
-                </div>
-                <div className={`swiper-slide`}>
-                  <div className={`${ourCustomersStyles['our-customers__item']}`}>
-                    <img src={ourCustomers4Image} alt='' />
-                  </div>
-                </div>
-                <div className={`swiper-slide`}>
-                  <div className={`${ourCustomersStyles['our-customers__item']}`}>
-                    <img src={ourCustomers5Image} alt='' />
-                  </div>
-                </div>
-                <div className={`swiper-slide`}>
-                  <div className={`${ourCustomersStyles['our-customers__item']}`}>
-                    <img src={ourCustomers1Image} alt='' />
-                  </div>
-                </div>
+                )}
               </div>
             </div>
           </div>

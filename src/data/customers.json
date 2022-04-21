@@ -1,0 +1,24 @@
+{
+  "customers": [
+    {
+      "image": "/images/our-customers-1.png",
+      "title": "Adobe"
+    },
+    {
+      "image": "/images/our-customers-2.png",
+      "title": "AMD"
+    },
+    {
+      "image": "/images/our-customers-3.png",
+      "title": "Antec"
+    },
+    {
+      "image": "/images/our-customers-4.png",
+      "title": "AXIS"
+    },
+    {
+      "image": "/images/our-customers-5.png",
+      "title": "Intel"
+    }
+  ]
+}
