@@ -1,0 +1,235 @@
+.partners {
+  padding-top: 32px;
+  position: relative;
+  left: 0px
+}
+
+@media only screen and (max-width: 768px) {
+  .partners {
+    padding-top: 0px
+  }
+}
+
+.partners::before {
+  content: "";
+  position: absolute;
+  height: 1044px;
+  width: 100%;
+  left: 0px;
+  top: -312px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: auto 1044px;
+  background-image: url(../../images/partners-5.svg)
+}
+
+@media only screen and (min-width: 1600px) {
+  .partners::before {
+    background-size: 100% 1044px;
+    background-image: url(../../images/partners-4.svg)
+  }
+}
+
+@media only screen and (max-width: 991px) {
+  .partners::before {
+    top: -250px
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .partners::before {
+    top: -200px
+  }
+}
+
+@media only screen and (max-width: 564px) {
+  .partners::before {
+    top: -100px
+  }
+}
+
+.partners__title {
+  margin-bottom: 24px
+}
+
+@media only screen and (max-width: 991px) {
+  .partners__title {
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 100%;
+    flex: 0 0 100%;
+    max-width: 100%
+  }
+}
+
+.partners__row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+  z-index: 1
+}
+
+@media only screen and (max-width: 991px) {
+  .partners__row_mb {
+    display: block
+  }
+}
+
+.partners__row_m {
+  margin: 0px -10px
+}
+
+@media only screen and (max-width: 540px) {
+  .partners__row_m {
+    display: block
+  }
+}
+
+.partners__left {
+  -webkit-box-flex: 0;
+  -ms-flex: 0 0 328px;
+  flex: 0 0 328px;
+  max-width: 328px
+}
+
+@media only screen and (max-width: 1340px) {
+  .partners__left {
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 300px;
+    flex: 0 0 300px;
+    max-width: 300px;
+    padding-right: 20px
+  }
+}
+
+@media only screen and (max-width: 991px) {
+  .partners__left {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    max-width: 100%
+  }
+}
+
+@media only screen and (max-width: 564px) {
+  .partners__left {
+    display: block
+  }
+}
+
+.partners__right {
+  -webkit-box-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  padding-top: 123px
+}
+
+@media only screen and (max-width: 1340px) {
+  .partners__right {
+    padding-top: 160px
+  }
+}
+
+@media only screen and (max-width: 991px) {
+  .partners__right {
+    padding-top: 30px
+  }
+}
+
+.partners__col {
+  -webkit-box-flex: 0;
+  -ms-flex: 0 0 33.33333%;
+  flex: 0 0 33.33333%;
+  max-width: 33.33333%;
+  padding: 0px 10px
+}
+
+@media only screen and (max-width: 540px) {
+  .partners__col {
+    margin-bottom: 20px;
+    max-width: 100%
+  }
+  .partners__col:nth-last-child(1) {
+    margin-bottom: 0px
+  }
+}
+
+.partners__brand {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  background: #FFFFFF;
+  -webkit-box-shadow: 0px 15px 22px rgba(13, 12, 84, 0.06);
+  box-shadow: 0px 15px 22px rgba(13, 12, 84, 0.06);
+  border-radius: 12px;
+  height: 218px
+}
+
+@media only screen and (max-width: 1340px) {
+  .partners__brand {
+    padding: 0px 20px;
+    height: 150px
+  }
+  .partners__brand img {
+    max-width: 100%
+  }
+}
+
+.partners-result {
+  margin-bottom: 13px
+}
+
+@media only screen and (max-width: 991px) {
+  .partners-result {
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 320px;
+    flex: 0 0 320px;
+    max-width: 320px;
+    padding-right: 15px
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .partners-result {
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 48%;
+    flex: 0 0 48%;
+    max-width: 48%
+  }
+}
+
+.partners-result:nth-last-child(1) {
+  margin-bottom: 0px
+}
+
+@media only screen and (max-width: 564px) {
+  .partners-result {
+    max-width: 100%
+  }
+}
+
+.partners-result__number {
+  font-weight: 500;
+  font-size: 28px;
+  color: #2B93F3
+}
+
+.partners-result__number span {
+  font-size: 18px
+}
+
+.partners-result__descr {
+  font-size: 17px;
+  line-height: 26px;
+  color: #3A3A40;
+  font-weight: 300;
+  padding-left: 44px
+}

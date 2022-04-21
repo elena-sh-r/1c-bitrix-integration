@@ -27,8 +27,8 @@ const Home = () => {
 			<Price />
 			<div className={`section-overflow`}>
 				<OurTeam />
-				<OurCustomers />
-				<Reviews />
+				{/* <OurCustomers /> */}
+				{/* <Reviews /> */}
 				<Questions />
 			</div>
 		</main>

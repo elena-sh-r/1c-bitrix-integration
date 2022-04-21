@@ -20,7 +20,7 @@ const Footer = () => {
             <li><HashLink smooth to={'/#how-we-work'}>Схема работы</HashLink></li>
             <li><HashLink smooth to={'/#price'}>Цены</HashLink></li>
             <li><HashLink smooth to={'/#our-team'}>Команда</HashLink></li>
-            <li><HashLink smooth to={'/#reviews'}>Отзывы</HashLink></li>
+            {/* <li><HashLink smooth to={'/#reviews'}>Отзывы</HashLink></li> */}
             <li><HashLink smooth to={'/#questions'}>FAQ</HashLink></li>
           </ul>
           <div className={`${footerStyles['footer__group']}`}>

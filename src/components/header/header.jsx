@@ -15,9 +15,9 @@ const Header = () => {
             <Link to='/'  className={`${headerStyles['header__logo']}`}>
               <img src={logo} alt='' width='79px' />
             </Link>
-            <div className={`hamburger hamburger--squeeze ${headerStyles['header__hamburger']}`}>
-              <div className={`hamburger-box`}>
-                <div className={`hamburger-inner`}></div>
+            <div className={`${headerStyles['hamburger']} ${headerStyles['hamburger--squeeze']} ${headerStyles['header__hamburger']}`}>
+              <div className={`${headerStyles['hamburger-box']}`}>
+                <div className={`${headerStyles['hamburger-inner']}`}></div>
               </div>
             </div>
           </div>
@@ -30,7 +30,7 @@ const Header = () => {
                 <li><HashLink smooth to={'/#how-we-work'}>Схема работы</HashLink></li>
                 <li><HashLink smooth to={'/#price'}>Цены</HashLink></li>
                 <li><HashLink smooth to={'/#our-team'}>Команда</HashLink></li>
-                <li><HashLink smooth to={'/#reviews'}>Отзывы</HashLink></li>
+                {/* <li><HashLink smooth to={'/#reviews'}>Отзывы</HashLink></li> */}
                 <li><HashLink smooth to={'/#questions'}>FAQ</HashLink></li>
               </ul>
             </div>
