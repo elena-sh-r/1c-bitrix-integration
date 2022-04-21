@@ -1,10 +1,21 @@
-import React from 'react';
+import React, { useState } from 'react';
 
 import questionsStyles from './questions.module.css';
+
+import data from '../../data/questions.json';
 
 import questions3Image from '../../images/questions-3.svg';
 
 const Questions = () => {
+  const [open, setOpen] = useState(null);
+
+  const toggleHandler = (idx) => {
+    if(open === idx) {
+      return setOpen(null)
+    }
+
+    setOpen(idx)
+  }
 
   return (
     <section className={`${questionsStyles['questions']}`} id='questions'>
@@ -14,30 +25,16 @@ const Questions = () => {
             <div className={`line line_m19`}></div>
             <div className={`h2 h2_wh`}>Часто задаваемые <br /> вопросы:</div>
             <div className={`${questionsStyles['questions__container']}`}>
-              <div className={`${questionsStyles['questions-item']}`}>
-                <div className={`${questionsStyles['questions-item__title']}`}>Сколько стоят ваши услуги?</div>
-                <div className={`${questionsStyles['questions-item__answer']}`}>
-                  Наш склад может наклеить штрихкоды на ваши товары самостоятельно
+              {data?.questions?.map((question, idx) => (
+                <div key={idx} className={`${questionsStyles['questions-item']}`}>
+                  <div className={`${questionsStyles['questions-item__title']} ${open === idx && questionsStyles['questions-item__title_active']}`} onClick={() => toggleHandler(idx)}>
+                    {question.question}
+                  </div>
+                  <div className={`${questionsStyles['questions-item__answer']} ${open === idx && questionsStyles['questions-item__answer_opened']}`}>
+                    {question.answer}
+                  </div>
                 </div>
-              </div>
-              <div className={`${questionsStyles['questions-item']}`}>
-                <div className={`${questionsStyles['questions-item__title']}`}>За какие услуги необходимо доплачивать отдельно?</div>
-                <div className={`${questionsStyles['questions-item__answer']}`}>
-                  Повседневная практика показывает, что сложившаяся структура организации способствует подготовки и реализации системы обучения кадров, соответствует насущным
-                </div>
-              </div>
-              <div className={`${questionsStyles['questions-item']}`}>
-                <div className={`${questionsStyles['questions-item__title']}`}>У нас нет штрих-кодов/маркировки. Что делать?</div>
-                <div className={`${questionsStyles['questions-item__answer']}`}>
-                  Наш склад может наклеить штрихкоды на ваши товары самостоятельно
-                </div>
-              </div>
-              <div className={`${questionsStyles['questions-item']}`}>
-                <div className={`${questionsStyles['questions-item__title']}`}>Какое минимальное количество поставки?</div>
-                <div className={`${questionsStyles['questions-item__answer']}`}>
-                  Наш склад может наклеить штрихкоды на ваши товары самостоятельно
-                </div>
-              </div>
+              ))}
             </div>
             <div className={`${questionsStyles['questions__center']}`}>
               <a href='#callback-form' className={`btn btn_gr magnific-popup`}><span>Задать свой вопрос</span></a>

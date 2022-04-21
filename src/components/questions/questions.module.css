@@ -58,7 +58,7 @@
   display: flex;
   position: relative;
   z-index: 3;
-  margin-top: -60px
+  margin-top: -60px;
 }
 
 @media only screen and (max-width: 991px) {
@@ -169,16 +169,29 @@
 }
 
 .questions-item__answer {
-  padding: 16px 52px 26px 52px;
+  padding: 0 52px 0 52px;
   color: #4C4B52;
   font-size: 15px;
   line-height: 22px;
   border-top: 1px solid #F1F1F1;
-  display: none
+  opacity: 0;
+  max-height: 0;
+  transition: all 0.5s ease;
+  overflow: hidden;
+}
+
+.questions-item__answer_opened {
+  padding: 16px 52px 26px 52px;
+  opacity: 1;
+  max-height: 500px;
 }
 
 @media only screen and (max-width: 768px) {
   .questions-item__answer {
-    padding: 20px
+    padding: 0 20px;
+  }
+
+  .questions-item__answer_opened {
+    padding: 20px;
   }
 }
