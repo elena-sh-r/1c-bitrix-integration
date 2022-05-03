@@ -5,7 +5,7 @@ import priceStyles from './price.module.css';
 import price3Image from '../../images/price-3.svg';
 import data from '../../data/price.json';
 
-const Price = () => {
+const Price = ({ funcB24 }) => {
 
   return (
     <section className={`${priceStyles['price']}`} id='price'>
@@ -14,6 +14,9 @@ const Price = () => {
 					<div className={`h2 h2_bl`}>Стоимость услуг</div>
 					<div className={`${priceStyles['price__row']}`}>
 						{data?.prices?.map((price, idx) => <div key={idx} className={`${priceStyles['price__col']}`}>
+								<script data-b24-form="click/11/f6bsu0" data-skip-moving="true">
+									{funcB24(window,document,'https://team.pm52.ru/upload/crm/form/loader_11_f6bsu0.js')}
+								</script>
 								<a href='#callback-form' className={`${priceStyles['price-item']} magnific-popup`}>
 									<span className={`${priceStyles['price-item__line']}`}></span>
 									<span className={`${priceStyles['price-item__title']}`} dangerouslySetInnerHTML={{__html: price.title}}></span>
