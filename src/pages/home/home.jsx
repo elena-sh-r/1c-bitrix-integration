@@ -10,26 +10,26 @@ import InlineForm from '../../components/inline-form/inline-form';
 import HowWeWork from '../../components/how-we-work/how-we-work';
 import Price from '../../components/price/price';
 import OurTeam from '../../components/our-team/our-team';
-import OurCustomers from '../../components/our-customers/our-customers';
-import Reviews from '../../components/reviews/reviews';
+// import OurCustomers from '../../components/our-customers/our-customers';
+// import Reviews from '../../components/reviews/reviews';
 import Questions from '../../components/questions/questions';
 
-const Home = () => {
+const Home = ({funcB24}) => {
 
   return (
     <main className={`overflow-page`}>
-			<Offer />
+			<Offer funcB24={funcB24} />
 			<Partners />
 			<ForWhom />
-			<Services />
-			<InlineForm />
-			<HowWeWork />
-			<Price />
+			<Services funcB24={funcB24} />
+			<InlineForm funcB24={funcB24} />
+			<HowWeWork funcB24={funcB24} />
+			<Price funcB24={funcB24} />
 			<div className={`section-overflow`}>
 				<OurTeam />
 				{/* <OurCustomers /> */}
 				{/* <Reviews /> */}
-				<Questions />
+				<Questions funcB24={funcB24} />
 			</div>
 		</main>
   );

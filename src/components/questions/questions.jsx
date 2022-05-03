@@ -6,7 +6,7 @@ import data from '../../data/questions.json';
 
 import questions3Image from '../../images/questions-3.svg';
 
-const Questions = () => {
+const Questions = ({ funcB24 }) => {
   const [open, setOpen] = useState(null);
 
   const toggleHandler = (idx) => {
@@ -37,6 +37,9 @@ const Questions = () => {
               ))}
             </div>
             <div className={`${questionsStyles['questions__center']}`}>
+              <script data-b24-form="click/11/f6bsu0" data-skip-moving="true">
+                {funcB24(window,document,'https://team.pm52.ru/upload/crm/form/loader_11_f6bsu0.js')}
+              </script>
               <a href='#callback-form' className={`btn btn_gr magnific-popup`}><span>Задать свой вопрос</span></a>
             </div>
           </div>
