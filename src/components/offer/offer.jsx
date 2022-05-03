@@ -4,7 +4,7 @@ import offerStyles from './offer.module.css';
 
 import offer1Image from '../../images/offer-1.svg';
 
-const Offer = () => {
+const Offer = ({funcB24}) => {
 
   return (
     <section className={`${offerStyles['offer']}`}>
@@ -27,6 +27,9 @@ const Offer = () => {
 								Регулярно получаете и увеличиваете прибыль от продаж
 							</div>
 						</div>
+						<script data-b24-form="click/11/f6bsu0" data-skip-moving="true">
+							{funcB24(window,document,'https://team.pm52.ru/upload/crm/form/loader_11_f6bsu0.js')}
+						</script>
 						<a href='#callback-form' className={`btn btn_gr ${offerStyles['offer__btn']} magnific-popup`}><span>Оставить заявку</span></a>
 					</div>
 					<img src={offer1Image} alt='' width='736' className={`${offerStyles['offer__image']}`} />

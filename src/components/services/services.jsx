@@ -10,7 +10,7 @@ import services7Image from '../../images/services-6.svg';
 import services8Image from '../../images/services-6.svg';
 import services9Image from '../../images/services-9.svg';
 
-const Services = () => {
+const Services = ({ funcB24 }) => {
 
   return (
     <section className={`${servicesStyles['services']}`} id='services'>
@@ -75,6 +75,9 @@ const Services = () => {
 							</div>
 						</div>
 					</div>
+					<script data-b24-form="click/11/f6bsu0" data-skip-moving="true">
+						{funcB24(window,document,'https://team.pm52.ru/upload/crm/form/loader_11_f6bsu0.js')}
+					</script>
 					<a href='#callback-form' className={`btn btn_gr magnific-popup`}><span>узнать больше</span></a>
 				</div>
 			</section>
