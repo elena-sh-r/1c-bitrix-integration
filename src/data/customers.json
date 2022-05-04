@@ -1,22 +1,27 @@
 {
   "customers": [
     {
+      "id": "1",
       "image": "/images/our-customers-1.png",
       "title": "Adobe"
     },
     {
+      "id": "2",
       "image": "/images/our-customers-2.png",
       "title": "AMD"
     },
     {
+      "id": "3",
       "image": "/images/our-customers-3.png",
       "title": "Antec"
     },
     {
+      "id": "4",
       "image": "/images/our-customers-4.png",
       "title": "AXIS"
     },
     {
+      "id": "5",
       "image": "/images/our-customers-5.png",
       "title": "Intel"
     }

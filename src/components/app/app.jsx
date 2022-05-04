@@ -7,28 +7,25 @@ import Footer from '../footer/footer';
 
 import './app.module.css';
 
-
-
-function App() {
-
-  const funcB24 = (w,d,u) => {
-		var s=d.createElement('script');
-		s.async=true;
-		s.src=u+'?'+(Date.now()/180000|0);
-		var h=d.getElementsByTagName('script')[0];
-		h.parentNode.insertBefore(s,h);
-	}
+const App = () => {
+  const funcB24 = (w, d, u) => {
+    const s = d.createElement('script');
+    s.async = true;
+    s.src = `${u}?${(Date.now() / 180000)}`;
+    const h = d.getElementsByTagName('script')[0];
+    h.parentNode.insertBefore(s, h);
+  };
 
   return (
-    <Router basename='1c-bitrix-integration'>
+    <Router basename="1c-bitrix-integration">
       <>
         <Header />
 
         <Switch>
-          <Route path='/' exact={true}>
+          <Route path="/" exact>
             <Home funcB24={funcB24} />
           </Route>
-          <Route path='*'>
+          <Route path="*">
             <NotFound404 />
           </Route>
         </Switch>
@@ -37,6 +34,6 @@ function App() {
       </>
     </Router>
   );
-}
+};
 
 export default App;
